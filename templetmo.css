@@ -21,6 +21,7 @@ nav{
     height: 80px;
     width: 100%;
     position: fixed;
+    z-index:2;
     color:white;
 }
 .nav-left{
@@ -209,6 +210,7 @@ nav{
     flex-flow: row nowrap;
     justify-content: space-evenly;
     /* border:1px solid red; */
+    height:400px;
     margin-top: 50px;
 }
 .sectionTwo >div >div:first-child{
@@ -250,7 +252,7 @@ nav{
     background-color: #7a6ad8;
     border-radius: 50%;
     position: relative;
-    bottom:80%;
+    bottom:95%;
 }
 
 .sectionTwo >div:first-child >div:nth-child(2){
@@ -270,5 +272,55 @@ nav{
     left: 60%; 
     z-index: 1;
 }
+.sectionThree{
+    border:1px solid red;
+    display: flex;
+    height: 570px;
+    width: 1320px;
+}
+.three-left{
+    border:1px solid blue;
+    background-color: #7a6ad8;
+    display: flex;
+    flex-flow:column wrap;
+    justify-content: space-between;
+    height: 100%;
+}
+.three-left>div{
+    background-color: white;
+    margin: 1% 8%;
+    padding:20px;
+    border-radius: 30px;
+}
+.three-left >div:first-child{
+    line-height: 30px;
+    border-radius: 33px;
+    margin-top: 10%;
+} 
+.three-left >div:first-child >span, .three-left >div:nth-child(2) >span, .three-left >div:nth-child(3)>span,.three-left >div:last-child>span{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.circle
+{
+    height: 30px;
+    width: 30px;
+    background-color: #7a6ad8;
+    border-radius: 50%;
+}
+.circle > i{
+    color:white;
+    padding-left: 8px;
+    padding-top: 6px;
+}
 
+.three-left >div:last-child{
+    margin-bottom: 10%;
+}
+.three-right{
+    background-color: #f1f0fe;
+    height: 80%;
+    margin: auto 0;
+}
 
