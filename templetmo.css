@@ -254,7 +254,7 @@ nav{
 
 .sectionTwo >div:first-child >div:nth-child(2){
     left: 370px; 
-    z-index: 1;  
+    z-index: 1;     
 }
 .sectionTwo >div >div:nth-child(2) >img{
     padding-left: 50px;
