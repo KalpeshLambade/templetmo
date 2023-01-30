@@ -108,7 +108,7 @@ nav{
     border-radius: 23px;
 }
 .main > div:first-child{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     width:13%;
     border-radius: 20px;
     font-size: 14px;
@@ -152,6 +152,7 @@ nav{
     padding: 0px 25px;
     border-radius: 25px;
     font-weight: 500;
+    border: none;
 }
 .main >div:nth-child(4) >div:nth-child(2){
     display:flex;
@@ -248,12 +249,12 @@ nav{
     height: 190px;
     background-color: #7a6ad8;
     border-radius: 50%;
-    position: absolute;
-    top: 145vh;
+    position: relative;
+    bottom:80%;
 }
 
 .sectionTwo >div:first-child >div:nth-child(2){
-    left: 370px; 
+    left: 60%; 
     z-index: 1;     
 }
 .sectionTwo >div >div:nth-child(2) >img{
@@ -262,11 +263,11 @@ nav{
     
 }
 .sectionTwo >div:nth-child(2) >div:nth-child(2){
-    left: 820px; 
+    left: 60%; 
     z-index: 1;
 }
 .sectionTwo >div:nth-child(3) >div:nth-child(2){
-    left: 1270px; 
+    left: 60%; 
     z-index: 1;
 }
 
