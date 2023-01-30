@@ -12,6 +12,7 @@ nav, nav >div:nth-child(2),nav >div:first-child{
     /* border: 1px solid green;   */
 
 }
+    /* Navbar Section */
 nav{
     /* border: 1px solid red; */
     justify-content: space-around;
@@ -37,6 +38,7 @@ nav{
     border-right: 0.5px solid white;
 }
 
+    /* Search Field */
 #search, #search > div:first-child > input, #search > div:nth-child(2),.nav-right >div:first-child{
     background-color: rgba(255, 255, 255, 0.10);
 }
@@ -64,7 +66,7 @@ nav{
     margin-top:20px;
     margin-right: 10px;
 }
-
+    /* navbar right Section */
 .nav-right{
     /* border: 1px solid green;  */
     justify-content: space-between; 
@@ -86,6 +88,7 @@ nav{
 .nav-right >div:last-child{
     padding-left: 3px;
 }
+    /* Section First */
 .sectionOne{
     height: 1099px;
     width:100%;
@@ -106,7 +109,7 @@ nav{
 }
 .main > div:first-child{
     border: 1px solid white;
-    width:11%;
+    width:13%;
     border-radius: 20px;
     font-size: 14px;
     margin-bottom: 80px;
@@ -199,6 +202,72 @@ nav{
     color:white;
 }
 
+    /* Second Section */
+.sectionTwo{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    /* border:1px solid red; */
+    margin-top: 50px;
+}
+.sectionTwo >div >div:first-child{
+    max-width: 300px;
+    border-radius: 25px;
+    /* border:1px solid red; */
+    background-color: #f1f0fe;
+    padding: 80px 30px 50px 30px;
+    
+    
+}
+.sectionTwo >div >div:first-child >h3{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.sectionTwo >div >div:first-child >p{
+    font-size: 14px;
+    color: #4a4a4a;
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+.sectionTwo >div >div:first-child >a{
+    background-color: #fff;
+    color: #7a6ad8;
+    font-size: 14px;
+    font-weight: 500;
+    height: 70px;
+    padding: 10px 25px;
+    border-radius: 20px
+}
+.sectionTwo >div >div:first-child >a:hover{
+    color:#fff;
+    background-color: #7a6ad8;
+}
+.sectionTwo >div:first-child >div:nth-child(2),.sectionTwo >div:nth-child(2) >div:nth-child(2),.sectionTwo >div:nth-child(3) >div:nth-child(2){
+    width: 190px;
+    height: 190px;
+    background-color: #7a6ad8;
+    border-radius: 50%;
+    position: absolute;
+    top: 145vh;
+}
 
+.sectionTwo >div:first-child >div:nth-child(2){
+    left: 370px; 
+    z-index: 1;  
+}
+.sectionTwo >div >div:nth-child(2) >img{
+    padding-left: 50px;
+    padding-top: 50px;
+    
+}
+.sectionTwo >div:nth-child(2) >div:nth-child(2){
+    left: 820px; 
+    z-index: 1;
+}
+.sectionTwo >div:nth-child(3) >div:nth-child(2){
+    left: 1270px; 
+    z-index: 1;
+}
 
 
