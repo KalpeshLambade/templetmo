@@ -275,8 +275,8 @@ nav{
 .sectionThree{
     border:1px solid red;
     display: flex;
-    height: 570px;
-    width: 1320px;
+    max-height: 570px;
+    max-width: 1320px;
 }
 .three-left{
     border:1px solid blue;
